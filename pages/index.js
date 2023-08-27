@@ -96,7 +96,7 @@ export default function Home() {
   return (
     <div className='flex flex-col items-center justify-center'>
       <Image className='fixed left-0 top-0 w-screen h-screen -z-10' src={background} alt='Background' />
-      <h1 className='font-sans text-5xl justify-center font-bold pt-5 text-white'>Tappstr Code Translator</h1>
+      <h1 className='font-sans text-5xl justify-center font-bold pt-5 text-white'>Code Translator</h1>
       <h2 className="font-sans mt-5 text-xl justify-center text-white mb-10">Translate your code from one language to another in a single click.</h2>
       {/* input code window */}
       <CodeWindow code={inputCode} setCode={setInputCode} loading={loading} handleLanguageChange={handleInputLanguageChange} language={inputLanguage} />
@@ -106,8 +106,8 @@ export default function Home() {
 
       {/* output code window */}
       <CodeWindow code={outputCode} setCode={setOutputCode} loading={loading} handleLanguageChange={handleOutputLanguageChange} language={outputLanguage} />
-      <p className="font-sans mt-5 pb-5 text-white">Powered by <a className="ref-link text-white" href="http://tappstr.com/" target="_blank" rel="noopener noreferrer">Tappstr</a></p>
-      <a className=' flex font-sans mb-5 p-1 items-center' href={`https://twitter.com/intent/tweet?text=${encodeURIComponent('Check out this awesome code translator!')}&url=${encodeURIComponent('https://tappstr.com')}`} target="_blank" rel="noopener noreferrer"><Image className='mr-0.5 justify-center' src={twitter_image} alt="Twitter" />Share it on Twitter</a>
+      <p className="font-sans mt-5 pb-5 text-white">Powered by <a className="ref-link text-white" href="https://lucrotech.co.za/" target="_blank" rel="noopener noreferrer">lucroTech</a></p>
+      <a className=' flex font-sans mb-5 p-1 items-center' href={`https://twitter.com/intent/tweet?text=${encodeURIComponent('Check out this awesome code translator!')}&url=${encodeURIComponent('https://lucrotech.co.za')}`} target="_blank" rel="noopener noreferrer"><Image className='mr-0.5 justify-center' src={twitter_image} alt="Twitter" />Share it on Twitter</a>
     </div>
 
   )
