@@ -106,7 +106,7 @@ export default function Home() {
 
       {/* output code window */}
       <CodeWindow code={outputCode} setCode={setOutputCode} loading={loading} handleLanguageChange={handleOutputLanguageChange} language={outputLanguage} />
-      <p className="font-sans mt-5 pb-5 text-white">Powered by <a className="ref-link text-white" href="https://lucrotech.co.za/" target="_blank" rel="noopener noreferrer">lucroTech</a></p>
+      <p className="font-sans mt-5 pb-5 text-white">Powered by <a className="ref-link text-white" href="https://lucrotech.co.za/" target="_blank" rel="noopener noreferrer">LucroTech</a></p>
       <a className=' flex font-sans mb-5 p-1 items-center' href={`https://twitter.com/intent/tweet?text=${encodeURIComponent('Check out this awesome code translator!')}&url=${encodeURIComponent('https://lucrotech.co.za')}`} target="_blank" rel="noopener noreferrer"><Image className='mr-0.5 justify-center' src={twitter_image} alt="Twitter" />Share it on Twitter</a>
     </div>
 
